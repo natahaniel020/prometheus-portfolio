@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Nathaniel – Software Dev & Designer</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <!-- CSS -->
+        <link href="/Proyect/css/Styles.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <!-- ===================== HEADER ===================== -->
+        <header class="main-header">
+            <!-- Logo circular con iniciales -->
+        
+        <a href="/" class="logo">
+            <img src="/Proyect/img/LOGO.png" alt="Logo">
+        </a>
+            
+
+            <!-- Navegación central -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home"     class="main-nav-link">Home</a></li>
+                    <li><a href="#services" class="main-nav-link">Services</a></li>
+                    <li><a href="#about"    class="main-nav-link">About</a></li>
+                    <li><a href="#skills"   class="main-nav-link">Skills</a></li>
+                    <li><a href="#projects" class="main-nav-link">Projects</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- CTA derecha -->
+            <a href="https://wa.me/3052016242" target="_blank" class="btn-talk">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+        </header>
+
+        <main>
+
+            <!-- ===================== HERO ===================== -->
+            <section id="home" class="hero-section">
+                <div class="container">
+
+                    <!-- Texto -->
+                    <div class="hero-content">
+                        <span class="hero-greeting">I am Nathaniel</span>
+
+                        <h1 class="hero-title">
+                            Software Development<br>
+                            Technician<br>
+                            <span>&amp; Designer</span>
+                        </h1>
+
+                        <p class="hero-description">
+                            "I develop scalable and efficient software solutions focused on backend systems,
+                            database management, and clean architecture. By combining problem-solving,
+                            structured development, and modern technologies, I turn ideas into reliable
+                            digital solutions."
+                        </p>
+
+                        <div class="hero-btns">
+                            <a href="#" class="btn-primary">Download CV</a>
+                            <div class="social-links">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Imagen -->
+                    <div class="hero-image">
+                        <img src="/Proyect/img/Gemini_Generated_Image_j7tgboj7tgboj7tg.png" 
+                             alt="Nathaniel – Software Developer & Designer">
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ===================== SERVICES ===================== -->
+            <section id="services" class="section-padding services-section">
+                <div class="container">
+
+                    <div class="section-header">
+                        <h2 class="section-title">Services</h2>
+                        <p class="section-description">Building scalable software solutions and efficient backend systems</p>
+                    </div>
+
+                    <div class="grid-container">
+
+                        <article class="card-standard">
+                            <h3 class="card-title">Backend Development</h3>
+                            <p class="card-text">
+                                Development of secure and scalable backend systems using modern
+                                programming practices and structured architectures.
+                            </p>
+                            <div class="card-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">PHP</span>
+                            </div>
+                        </article>
+
+                        <article class="card-standard">
+                            <h3 class="card-title">Web Application Development</h3>
+                            <p class="card-text">
+                                Creation of dynamic web applications with responsive interfaces,
+                                database integration, and optimized functionality.
+                            </p>
+                            <div class="card-tags">
+                                <span class="tag">Laravel</span>
+                                <span class="tag">Django</span>
+                            </div>
+                        </article>
+
+                        <article class="card-standard">
+                            <h3 class="card-title">Database Management</h3>
+                            <p class="card-text">
+                                Design and management of relational databases with optimized
+                                queries, secure data handling, and scalable structures.
+                            </p>
+                            <div class="card-tags">
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Data Modeling</span>
+                            </div>
+                        </article>
+
+                        <article class="card-standard">
+                            <h3 class="card-title">Software Analysis</h3>
+                            <p class="card-text">
+                                Requirement analysis, system planning, and structured solution
+                                design focused on efficiency and maintainability.
+                            </p>
+                            <div class="card-tags">
+                                <span class="tag">System Design</span>
+                                <span class="tag">Problem Solving</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===================== ABOUT ME ===================== -->
+            <section id="about" class="section-padding about-section">
+                <div class="container">
+
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                    </div>
+
+                    <p class="about-description">
+                        II'm a software analysis and development technician focused on building efficient, scalable, and user-oriented solutions. 
+                        I work on designing, developing, and maintaining software systems by analyzing requirements, structuring clean architectures, 
+                        and ensuring reliable performance across different environments.
+                    </p>
+
+                    <p class="about-approach-title">My Approach</p>
+
+                    <div class="approach-grid">
+                        <div class="approach-card">
+                            <span class="approach-number">01</span>
+                            <span class="approach-text">Analyze requirements & system needs</span>
+                        </div>
+                        <div class="approach-card">
+                            <span class="approach-number">02</span>
+                            <span class="approach-text">Design efficient software solutions</span>
+                        </div>
+                        <div class="approach-card">
+                            <span class="approach-number">03</span>
+                            <span class="approach-text">Develop scalable and reliable applications</span>
+                        </div>
+                    </div>
+
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">00+</span>
+                            <span class="stat-label">Years Of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">00+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">00+</span>
+                            <span class="stat-label">Clients Served</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ===================== SKILLS ===================== -->
+            <section id="skills" class="section-padding skills-section">
+                <div class="container">
+
+                    <div class="section-header">
+                        <h2 class="section-title">Skills</h2>
+                        <p class="section-description">Building efficient software solutions with clean code and scalable architecture</p>
+                    </div>
+
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Core Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Software Analysis</span>
+                                <span class="skill-tag">Backend Development</span>
+                                <span class="skill-tag">Database Management</span>
+                                <span class="skill-tag">System Architecture<</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Programming Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Frameworks & Technologies</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Laravel</span>
+                                <span class="skill-tag">Django</span>
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Database & Tools</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">GitHub</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">REST APIs</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ===================== FOOTER ===================== -->
+        <footer>
+            <!-- place footer here -->
+        </footer>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.main-nav');
+            nav.classList.toggle('open');
+        }
+    </script>
+        
+    </body>
+</html>
